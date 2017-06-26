@@ -31,7 +31,7 @@ Sure you could find these same sorts of answers by searching Google and clicking
 `grep -c -i "#cool" *`
 
 #### search and replace using literal / character to replace "/grin" with "/cheer" (and avoid escaping characters)
-sed 's@/grin@/cheer@g' file.txt 
+`sed 's@/grin@/cheer@g' file.txt`
 
 #### Substitute "the" with "ppp" (Finding "the" as a whole word with \< \> marking the spaces surrounding it)
 `sed 's/\<the\>/ppp/g' file.txt`
